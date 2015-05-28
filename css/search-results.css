@@ -1,0 +1,114 @@
+﻿/*-------------------------------------------
+
+    Title :  NTDTV local
+    Usage :  search results page
+    Author:  NTDTV
+    Edited:  2015-02-12
+
+---------------------------------------------
+
+    1. search form
+    2. hot
+    3. tag
+
+---------------------------------------------*/
+
+
+
+/*  1. search form
+---------------------------------------------*/
+
+#srch-form form {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 18px;
+	width: 527px !important;
+	}
+
+#srch-form form div input {
+	padding-right: 25px;
+	width: 100%;
+	height: 34px;
+	color: #ddd;
+	font-weight: 700;
+	font-size: 2.2em;
+	border: none;
+	border-bottom: 1px solid #58585b;
+	}
+
+#srch-form form div input.entered {
+	color: #58585b;
+	}
+
+#srch-form form div button {
+	position: absolute;
+	top: 21px;
+	right: 2px;
+	color: #ababab;
+	font-size: 2.1em;
+	border: none;
+	background: none;
+	}
+
+#srch-form form div button:hover {
+	color: #58585b;
+	}
+
+#srch-form form div button:before {
+	cursor: pointer;
+	}
+
+#srch-form p {
+	margin-top: 17px;
+	font-weight: 700;
+	font-size: 2.2em;
+	text-align: center;
+	}
+
+
+
+/*  2. hot
+---------------------------------------------*/
+
+#hot {
+	margin-top: 39px;
+	}
+
+#hot .items:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -2500px;
+	width: 5000px;
+	border-top: 2px solid #ebebeb;
+	}
+
+#hot .items .item {
+	padding-right: 279px;
+	padding-left: 0;
+	}
+
+#hot .items .item .fig {
+	right: 0;
+	left: auto;
+	}
+
+#hot .items .item .time {
+	margin-bottom: 8px;
+	}
+
+
+
+/*  3. tag
+---------------------------------------------*/
+
+#tag {
+	padding: 17px 0 40px;
+	font-weight: 700;
+	font-size: 3em;
+	}
+
+#tag:before {
+	margin-right: -3px;
+	font-weight: 400;
+	}

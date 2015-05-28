@@ -1,0 +1,220 @@
+﻿/*-------------------------------------------
+
+    Title :  NTDTV local
+    Usage :  Events page
+    Author:  NTDTV
+    Edited:  2015-02-09
+
+---------------------------------------------
+
+    1. events search form
+    2. featured
+
+---------------------------------------------*/
+
+
+
+/*  1. events search form
+---------------------------------------------*/
+
+#featured form {
+	float: right;
+	margin-top: 5px;
+	width: 500px;
+	}
+
+#featured form div {
+	display: inline-block;
+	}
+
+#featured form div label {
+	margin-left: 32px;
+	color: #58585b;
+	font-weight: 700;
+	font-size: 1.5em;
+	}
+
+#featured form div input {
+	padding: 0 2px;
+	height: 27px;
+	color: #ababab;
+	font-weight: 700;
+	font-size: 1.5em;
+	border: none;
+	border-bottom: 1px solid #000;
+	}
+
+#featured form div input.entered {
+	color: #58585b;
+	}
+
+#featured form div #events-date {
+	width: 110px;
+	}
+
+#featured form div #events-name {
+	width: 206px;
+	}
+
+#featured form div button {
+	position: relative;
+	top: 1px;
+	margin-left: 12px;
+	color: #ababab;
+	font-size: 1.6em;
+	background: none;
+	border: none;
+	}
+
+#featured form div button:hover {
+	color: #58585b;
+	}
+
+#featured form div button:before {
+	cursor: pointer;
+	}
+
+.ui-datepicker {
+	padding: 4px;
+	width: 176px;
+	font: 1.2em/1.2 Helvetical, Arial, sans-serif;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+	}
+
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	color: #58585b;
+	}
+
+.ui-datepicker .ui-datepicker-header a {
+	position: absolute;
+	top: 7px;
+	font-size: 0;
+	text-decoration: none;
+	}
+
+.ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+	left: 7px;
+	}
+
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+	right: 7px;
+	}
+
+.ui-datepicker .ui-datepicker-header a:before {
+	cursor: pointer;
+	font-size: 12px;
+	font-family: "Font Awesome";
+	}
+
+.ui-datepicker .ui-datepicker-header .ui-datepicker-prev:before {
+	content: "\f053";
+	}
+
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next:before {
+	content: "\f054";
+	}
+
+.ui-datepicker .ui-datepicker-header .ui-datepicker-title {
+	padding: 7px 0 14px;
+	font-weight: 700;
+	text-align: center;
+	}
+
+.ui-datepicker table {
+	width: 100%;
+	}
+
+.ui-datepicker table thead tr th {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #eee;
+	}
+
+.ui-datepicker table tbody tr td {
+	color: #58585b;
+	text-align: center;
+	}
+
+.ui-datepicker table tbody tr:first-child td {
+	padding-top: 4px;
+	}
+
+.ui-datepicker table tbody tr td a {
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-decoration: none;
+	border-radius: 12px;
+	}
+
+.ui-datepicker table tbody tr td a:hover {
+	color: #fff;
+	background: #ababab;
+	}
+
+.ui-datepicker table tbody tr td.ui-datepicker-today a {
+	font-weight: 700;
+	}
+
+
+
+/*  2. featured
+---------------------------------------------*/
+
+#featured .fig {
+	position: relative;
+	}
+
+#featured .fig small {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160px;
+	height: 32px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.6em;
+	line-height: 30px;
+	text-align: center;
+	background: rgba(253, 199, 45, 0.95);
+	}
+
+.ie8 #featured .fig small {
+	background: rgb(253, 199, 45);
+	}
+
+#featured .right .tag {
+	margin-bottom: 7px;
+	cursor: default;
+	color: #ababab;
+	font-weight: 700;
+	font-size: 1.5em;
+	}
+
+#featured ul li h4 {
+	color: #28235f;
+	font-size: 1.5em;
+	}
+
+#featured ul li h4 .wrapper small {
+	display: inline-block;
+	margin-right: 3px;
+	width: 123px;
+	height: 24px;
+	color: #fee59b;
+	font-size: 0.8em;
+	line-height: 24px;
+	text-align: center;
+	background: rgba(253, 199, 45, 0.95);
+	}
+
+.ie8 #featured ul li h4 .wrapper small {
+	background: rgb(253, 199, 45);
+	}
+
+#featured ul li h4 .wrapper .time {
+	margin-left: 10px;
+	color: #ababad;
+	}

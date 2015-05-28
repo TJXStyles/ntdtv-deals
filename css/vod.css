@@ -1,0 +1,392 @@
+﻿/*-------------------------------------------
+
+    Title :  NTDTV local
+    Usage :  VOD page
+    Author:  NTDTV
+    Edited:  2015-02-11
+
+---------------------------------------------
+
+    1. slideshow
+    2. related
+    3. main
+    4. social
+    5. video
+    6. info
+
+---------------------------------------------*/
+
+
+
+/*  1. slideshow
+---------------------------------------------*/
+
+#slideshow {
+	position: relative;
+	margin: -1px -577px 0 -357px;
+	overflow: hidden;
+	height: 470px;
+	text-align: center;
+	}
+
+#slideshow > .before {
+	position: absolute;
+	top: 286px;
+	left: 0;
+	width: 100%;
+	height: 5000px;
+	background: rgba(0, 0, 0, 0.5);
+	}
+
+#slideshow .pager {
+	position: absolute;
+	bottom: 29px;
+	left: 50%;
+	z-index: 101;
+	margin-left: -514px;
+	width: 808px;
+	height: 0;
+	font-size: 9px;
+	text-align: right;
+	white-space: nowrap;
+	}
+
+#slideshow .pager a {
+	display: inline-block;
+	margin-left: 3px;
+	width: 8px;
+	height: 8px;
+	cursor: pointer;
+	text-decoration: none;
+	background: #000;
+	border-radius: 4px;
+	}
+
+#slideshow .pager a.cycle-pager-active {
+	background: #fff;
+	}
+
+#slideshow .item {
+	width: 100%;
+	height: 470px;
+	}
+
+#slideshow .item .fig {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	}
+
+.ie8 #slideshow .item .fig {
+	display: block;
+	}
+
+#slideshow .item .fig img {
+	position: relative;
+	}
+
+#slideshow .item .fig .before {
+	position: absolute;
+	top: 286px;
+	left: 0;
+	width: 100%;
+	height: 5000px;
+	background: rgba(0, 0, 0, 0.5);
+	}
+
+#slideshow .item .info {
+	position: relative;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 184px;
+	-pie-background: rgba(0, 0, 0, 0.5);
+	behavior: url(js/PIE.htc);
+	}
+
+#slideshow .item .info .center {
+	position: relative;
+	left: -110px;
+	margin: 0 auto;
+	width: 808px;
+	height: 184px;
+	color: #fff;
+	text-align: left;
+	}
+
+#slideshow .item .info .center > div {
+	overflow: hidden;
+	}
+
+#slideshow .item .info .center div h4 {
+	float: left;
+	padding: 6px 11px 7px;
+	color: #28235f;
+	font-size: 1.6em;
+	background: #fff;
+	}
+
+#slideshow .item .info .center h2 {
+	margin-top: 13px;
+	width: 526px;
+	font-size: 3em;
+	}
+
+#slideshow .item .info .center .author {
+	display: block;
+	margin-top: 5px;
+	width: 526px;
+	font-size: 1.5em;
+	}
+
+#slideshow .item .info .center p {
+	margin-top: 3px;
+	width: 526px;
+	font-size: 1.5em;
+	line-height: 1.467;
+	}
+
+#slideshow .item .info .center > a {
+	position: absolute;
+	bottom: 50px;
+	right: 0;
+	width: 149px;
+	height: 46px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.6em;
+	line-height: 44px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #fff;
+	border-radius: 23px;
+	}
+
+#slideshow .item .info .center > a span {
+	position: relative;
+	top: -1px;
+	font-size: 12px;
+	}
+
+
+
+/*  2. related
+---------------------------------------------*/
+
+.related {
+	padding-top: 44px;
+	background: #f5f5f5;
+	box-shadow: 0 5000px 0 5000px #f5f5f5;
+	behavior: url(js/PIE.htc);
+	}
+
+#slideshow + .related {
+	padding-top: 27px;
+	}
+
+#video  ~ .related,
+#switch ~ .related {
+	background: none;
+	box-shadow: none;
+	}
+
+.related h3 {
+	margin-bottom: -15px;
+	padding-bottom: 9px;
+	font-size: 2.2em;
+	border-bottom: 1px solid #e5e5e5;
+	}
+
+.related ul {
+	width: 840px;
+	}
+
+.related ul li {
+	float: left;
+	margin: 30px 32px 0 0;
+	width: 248px;
+	}
+
+.related ul li .fig {
+	display: block;
+	margin-bottom: 12px;
+	width: 248px;
+	height: 140px;
+	}
+
+.related ul li .fig img {
+	width: 100%;
+	height: 100%;
+	}
+
+.related ul li .txt {
+	font-weight: 700;
+	font-size: 1.8em;
+	}
+
+.related ul li p {
+	margin-top: 7px;
+	color: #58585b;
+	font-size: 1.2em;
+	line-height: 1.334;
+	}
+
+.related:after {
+	content: "";
+	clear: both;
+	display: block;
+	}
+
+
+
+/*  3. main bg
+---------------------------------------------*/
+
+#main {
+	background-repeat: no-repeat;
+	background-position: 50% 41px;
+	}
+
+
+
+/*  4. social
+---------------------------------------------*/
+
+#social ul li a {
+	background: none;
+	}
+
+
+
+/*  5. video
+---------------------------------------------*/
+
+#video {
+	clear: both;
+	padding-top: 65px;
+	}
+
+#video h2 {
+	margin-bottom: 33px;
+	font-size: 3em;
+	}
+
+#video .meta {
+	float: right;
+	width: 248px;
+	}
+
+#video .meta ul li {
+	padding: 20px 0;
+	border-bottom: 1px solid #ebebeb;
+	}
+
+#video .meta ul li:first-child {
+	color: #58585b;
+	font-size: 1.5em;
+	}
+
+#video .meta ul li:first-child {
+	padding-top: 0;
+	}
+
+#video .meta ul li h4 {
+	padding-top: 2px;
+	}
+
+#video .meta ul li span[data-font-awesome-icon] {
+	margin-right: 44px;
+	color: #ababad;
+	font-size: 1.2em;
+	}
+
+#video .meta ul li span[data-font-awesome-icon]:before {
+	margin-right: 4px;
+	font-size: 1.334em;
+	}
+
+#video .meta ul li strong {
+	display: block;
+	color: #58585b;
+	font-weight: 400;
+	font-size: 1.5em;
+	}
+
+#video .meta ul li .time {
+	display: block;
+	margin-top: 16px;
+	color: #ababab;
+	font-size: 1.2em;
+	}
+
+#video .meta ul li p {
+	margin-top: 10px;
+	cursor: default;
+	color: #58585b;
+	font-size: 1.2em;
+	}
+
+#video .meta ul li p a {
+	margin: 0 1px 0 5px;
+	color: #ababab;
+	}
+
+#video .meta ul li p a:first-child {
+	margin-left: 0;
+	}
+
+#video .video-container {
+	width: 527px;
+	height: 297px;
+	}
+
+#video > p {
+	margin-top: 20px;
+	width: 527px;
+	color: #58585b;
+	font-size: 1.5em;
+	line-height: 1.467;
+	}
+
+
+
+/*  6. info
+---------------------------------------------*/
+
+#info {
+	position: relative;
+	margin-top: 33px;
+	padding-top: 27px;
+	width: 527px;
+	}
+
+#info:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 808px;
+	border-top: 2px solid #ebebeb;
+	}
+
+#info .ad {
+	float: right;
+	margin: 3px -333px 15px 0;
+	width: 300px;
+	font-size: 10px;
+	line-height: 1.2;
+	}
+
+#info h3 {
+	padding-bottom: 2px;
+	color: #000;
+	font-size: 2.2em;
+	}
+
+#info p {
+	margin-top: 12px;
+	color: #58585b;
+	font-size: 1.5em;
+	line-height: 1.467;
+	}

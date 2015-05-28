@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+    Header set X-UA-Compatible "IE=Edge,chrome=1"
+</IfModule>
+
+AddType text/x-component .htc
