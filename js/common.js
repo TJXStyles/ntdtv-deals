@@ -85,6 +85,23 @@ jQuery(document).ready(function($) {
 
 	}
 
+	else if (document.body.id == 'deals-page') {
+		$('#font .size').on('click', function() {
+			changeFontSize();
+		});
+
+		if ($('#hot .header h4').length) {
+			$('#hot .header h4')
+				.click(function() {
+					if ($(document).scrollTop() > $('#hot').offset().top) {
+						$(window).scrollTop($('#hot').offset().top);
+					}
+					$(this).addClass('curr').parent().siblings().find('h4').removeClass('curr');
+					freshThingsLoad($.trim($(this).attr('class').replace('curr', '').replace('hot', '')));
+				})
+				.filter('.curr').click();
+		}
+	}
 
 	// Fresh Things article page
 
