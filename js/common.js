@@ -84,12 +84,8 @@ jQuery(document).ready(function($) {
 			});
 
 	}
-
+	// Deals page tabs
 	else if (document.body.id == 'deals-page') {
-		$('#font .size').on('click', function() {
-			changeFontSize();
-		});
-
 		if ($('#hot .header h4').length) {
 			$('#hot .header h4')
 				.click(function() {
@@ -101,6 +97,10 @@ jQuery(document).ready(function($) {
 				})
 				.filter('.curr').click();
 		}
+		$('.pop').capty({
+			opacity: .6,
+			height: 75
+		});
 	}
 
 	// Fresh Things article page
@@ -229,7 +229,6 @@ jQuery(document).ready(function($) {
 							$body.toggleClass('sticky-hot');
 						}
 		});
-
 	}
 
 
@@ -516,10 +515,15 @@ function freshThingsLoad(tabName) {
 						});
 		            }
 	});
-$('.pop').capty({
-	opacity: .6,
-	height: 50
-});
+	
+	//Popup text for deals page
+	// $('.pop').capty({
+	// 	opacity: .6,
+	// 	height: 75
+	// });
+
+
+
 }
 
 function changeFontSize() {
