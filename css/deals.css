@@ -1,0 +1,126 @@
+/*-------------------------------------------
+
+    Title :  NTDTV local
+    Usage :  Deals page
+    Author:  NTDTV
+    Edited:  2015-05-28
+
+---------------------------------------------
+
+		1. main content
+		2. bottom tabs
+
+---------------------------------------------*/
+
+/*  1. main content
+---------------------------------------------*/
+
+.featured-deals {
+	background: white;
+	width: 840px;
+	clear: both;
+}
+
+.col-2 {
+	width: 46%;
+	float: left;
+	height: 200px;
+	background-color: gray;
+}
+
+.col-2:first-child {
+	margin-right: 20px;
+}
+
+.col-2 img {
+	width: 100%;
+	height: 200px;
+}
+
+.col-3 {
+	background-color: ;
+	float: left;
+	width: 30%;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.col-3 img {
+	width: 100%;
+	height: 170px;
+}
+
+.clear {
+	clear: both;
+}
+.deals-column {
+	background: #f5f5f5;
+	box-shadow: 0 5000px 0 5000px #f5f5f5;
+}
+
+.deals-column h3 {
+	margin-bottom: -15px;
+	padding-bottom: 9px;
+	font-size: 2.2em;
+	border-bottom: 1px solid #e5e5e5;
+	}
+
+.deals-column ul {
+	width: 840px;
+	}
+
+.deals-column ul li {
+	float: left;
+	margin: 30px 32px 0 0;
+	width: 248px;
+	}
+
+.deals-column ul li .fig {
+	display: block;
+	margin-bottom: 12px;
+	width: 248px;
+	height: 140px;
+	}
+
+.deals-column ul li .fig img {
+	width: 100%;
+	height: 100%;
+	}
+
+.deals-column ul li .txt {
+	font-weight: 700;
+	font-size: 1.8em;
+	}
+
+.deals-column ul li p {
+	margin-top: 7px;
+	color: #58585b;
+	font-size: 1.2em;
+	line-height: 1.334;
+	}
+
+.deals-column:after {
+	content: "";
+	clear: both;
+	display: block;
+	}
+
+	div.capty-caption {
+	background-color: #000;
+	color: #FFF;
+	padding-left: 10px;
+	padding-top: 7px;
+	text-shadow: 1px 1px 0 #222;
+}
+
+div.capty-caption a {
+	color: #318DAD;
+	font: bold 11px verdana;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+
+/*  1. bottom tabs
+---------------------------------------------*/

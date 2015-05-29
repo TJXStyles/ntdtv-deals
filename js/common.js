@@ -516,6 +516,10 @@ function freshThingsLoad(tabName) {
 						});
 		            }
 	});
+$('.pop').capty({
+	opacity: .6,
+	height: 50
+});
 }
 
 function changeFontSize() {
