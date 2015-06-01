@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
 			});
 
 	}
-	// Deals page tabs
+	// Deals page tabs added by Jack
 	else if (document.body.id == 'deals-page') {
 		if ($('#hot .header h4').length) {
 			$('#hot .header h4')
